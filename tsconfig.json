@@ -1,0 +1,11 @@
+{
+    "compilerOptions": {
+        "declaration": true,
+        "moduleResolution": "classic",
+        "target": "es5"
+    },
+    "files": [
+        "node_modules/makerjs/index.d.ts",
+        "index.ts"
+    ]
+}

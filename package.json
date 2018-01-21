@@ -1,0 +1,25 @@
+{
+  "name": "makerjs-beam",
+  "version": "1.0.0",
+  "description": "Beam a shape like a shadow",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc -p ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/danmarshall/makerjs-beam.git"
+  },
+  "keywords": [
+    "makerjs"
+  ],
+  "author": "Dan Marshall",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/danmarshall/makerjs-beam/issues"
+  },
+  "homepage": "https://github.com/danmarshall/makerjs-beam#readme",
+  "dependencies": {
+    "makerjs": "^0.9.83"
+  }
+}
