@@ -63,7 +63,7 @@ class Beam implements IModel {
 
                 map[makerjs.pathType.Arc] = (arc: IPathArc) => {
                     const dividedArcs = divideArc(arc, angles);
-                    if (dividedArcs.length > 0) {
+                    if (dividedArcs.length > 1) {
                         const beams = dividedArcs.map(a => {
                             return new Beam(a, pathOffset, beamOffset, scale, scaleOffset, true);
                         });
